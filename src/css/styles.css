@@ -1,0 +1,20 @@
+/* This is a sample CSS file */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #343536;
+  background:aliceblue;
+}
+
+div {
+  background: #fedcba;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #cfebad;
+}
+
+/* Add more styles as needed */

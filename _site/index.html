@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleventy with PostCSS</title>
+   
+    <link id="postcss" rel="stylesheet" type="text/css" href="css/index.css" />
+    <link id="postcss" rel="stylesheet" type="text/css" href="./_site/css/index.css" />
+    <link id="sass" rel="stylesheet" type="text/css" href="./_site/css/style.css"> 
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to bsb-Eleventy-PostCSS</h1>
+<p>Eleventy 2.0 with PostCSS and Dart SASS 3.0</p>
+      <p>
+        This is a sample page to demonstrate PostCSS and SASS integration with Eleventy.
+      </p>
+<button onclick="toggleTheme()">Toggle Stylesheet</button>
+    </div>
+    <div>
+      <b>We are outside the lines here.</b> The SASS and PostCSS builds are exclusive to each other at this stage in this repo. They output separate CSS Style sheets. 
+    </div>
+  </body>
+
+<script>
+        function toggleTheme() {
+            // Select the <link> element
+            let theme = document.getElementById('postcss');
+
+            // Toggle between light.css and dark.css
+            if (theme.getAttribute('href') == 'css/index.css') {
+                theme.setAttribute('href', 'css/style.css');
+            } else {
+                theme.setAttribute('href', 'css/index.css');
+            }
+        }
+</script>
+
+
+</html>
