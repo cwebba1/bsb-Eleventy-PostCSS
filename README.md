@@ -10,21 +10,21 @@ PostCSS is compiled from within .eleventy.js using a PostCSS.config.js file.
 
 The SASS and PostCSS builds are exclusive to each other in this repo. They output different CSS Style sheets. 
 
-TO DO:
+### TO DO:
 – Upgrade to Eleventy 3.0
 – Chain SASS and PostCSS to process a combined CSS Stylesheet, or make an optional script in Package.json to do so 
 
 
-Initial Status 110124:
+### Initial Status 110124:
 This repo only has Eleventy and PostCSS.
 
 
 
-Resources:
+## Resources:
 
 #### Adding SASS through package.json
 Max Böck
-###Asset Pipelines in Eleventy
+### Asset Pipelines in Eleventy
 26 Apr 2021
 https://mxb.dev/blog/eleventy-asset-pipeline/ 
 – Example showing scripts to load SASS from package.json
@@ -35,7 +35,7 @@ Kevin Powell
 2021
 https://www.youtube.com/watch?v=CR-a8upNjJ0&ab_channel=KevinPowell
 
-###How to Switch Between Multiple CSS Stylesheets using JavaScript?
+### How to Switch Between Multiple CSS Stylesheets using JavaScript?
 Last Updated : 15 Oct, 2024
 https://www.geeksforgeeks.org/how-to-switch-between-multiple-css-stylesheets-using-javascript/
 
